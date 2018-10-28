@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QUẢN LÝ TƯỚI VƯỜN</string>
+    <string name="information_auto_on">Chế độ này sẽ tự động tưới dựa trên nhiệt độ và độ ẩm thu thập được.
+    Khi nhiệt độ cao quá so với mức sinh trưởng của cây hoặc độ ẩm quá thấp . Hệ thống sẽ tự động tưới cho vườn mà bạn
+    không phải thiết lập gì cả</string>
+
+    <string name="information_auto_off">Sẽ tắt chế độ tưới tự động. Bạn phải tưới bằng tay hoặc phải thiết lập thời gian tưới cho vườn.
+    Khuyến cáo bạn nên sử dụng chế độ tưới tự động</string>
+
+
+    <!--<string-array name="dayOfMonth">-->
+        <!--<item>Hằng ngày</item>-->
+        <!--<item>Thứ Hai</item>-->
+        <!--<item>Thứ Ba</item>-->
+        <!--<item>Thứ Tư</item>-->
+        <!--<item>Thứ Năm</item>-->
+        <!--<item>Thứ Sáu</item>-->
+        <!--<item>Thứ Bảy</item>-->
+        <!--<item>Chủ Nhật</item>-->
+    <!--</string-array>-->
+
+    <string name="MS001">Bật điện</string>
+    <string name="MS002">Tắt điện</string>
+    <string name="MS003">Chế độ tưới tự động</string>
+    <string name="MS004">Chế độ tưới tay</string>
+    <string name="MS005">Xem thêm</string>
+    <string name="MS006">Nhiệt độ trong vườn là : </string>
+    <string name="MS007">{0}°C</string>
+    <string name="MS008">Độ ẩm trong vườn là : </string>
+    <string name="MS009">{0}%</string>
+    <string name="MS010">Số lần đã tưới trong ngày hôm nay</string>
+    <string name="MS011">{0}</string>
+    <string name="MS012">Chế độ đang dùng : </string>
+    <string name="MS013">Tưới tự động</string>
+    <string name="MS014">Tưới tay</string>
+    <string name="MS015">Quản lý tưới vườn</string>
+    <string name="MS016">Thiết lập tưới tay</string>
+    <string name="MS017">Giờ bắt đầu : </string>
+    <string name="MS018">Ấn vào đây để nhập giờ</string>
+    <string name="MS019">Giờ kết thúc : </string>
+    <string name="MS020">Xác nhận và cài đặt</string>
+    <string name="MS021">Nhập thời gian tưới</string>
+    <string name="MS022">Thời gian tưới (phút) : </string>
+    <string name="MS023">Lặp lại</string>
+</resources>
