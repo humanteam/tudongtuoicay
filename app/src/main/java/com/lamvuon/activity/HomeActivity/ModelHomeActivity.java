@@ -1,15 +1,12 @@
-package com.example.thanhcong.testsocket.activity.HomeActivity;
+package com.lamvuon.activity.HomeActivity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.widget.TextView;
 
-import com.example.thanhcong.testsocket.R;
-import com.example.thanhcong.testsocket.activity.HandSprinklers.ViewHandSprinklers;
-import com.example.thanhcong.testsocket.common.Constans;
-import com.example.thanhcong.testsocket.models.SocketEmit;
+import com.lamvuon.R;
+import com.lamvuon.activity.HandSprinklers.ViewHandSprinklers;
 
-import org.greenrobot.eventbus.EventBus;
 
 public class ModelHomeActivity {
 

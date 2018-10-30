@@ -1,4 +1,4 @@
-package com.example.thanhcong.testsocket.adapter;
+package com.lamvuon.adapter;
 
 import android.app.TimePickerDialog;
 import android.content.Context;
@@ -15,7 +15,9 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
-import com.example.thanhcong.testsocket.R;
+
+import com.lamvuon.R;
+
 import java.util.List;
 
 public class HandSprinklersAdapter extends RecyclerView.Adapter<HandSprinklersAdapter.ModelHandSprinklers> {

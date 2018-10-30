@@ -1,12 +1,11 @@
-package com.example.thanhcong.testsocket.socket;
+package com.lamvuon.socket;
 
 import android.content.Context;
-
-import com.example.thanhcong.testsocket.common.Constans;
-import com.example.thanhcong.testsocket.models.SocketEmit;
 import com.github.nkzawa.emitter.Emitter;
 import com.github.nkzawa.socketio.client.IO;
 import com.github.nkzawa.socketio.client.Socket;
+import com.lamvuon.common.Constans;
+import com.lamvuon.models.SocketEmit;
 
 import java.net.URISyntaxException;
 

@@ -1,4 +1,4 @@
-package com.example.thanhcong.testsocket.common;
+package com.lamvuon.common;
 
 public interface Constans {
     interface JSON {

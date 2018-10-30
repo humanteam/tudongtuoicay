@@ -1,4 +1,4 @@
-package com.example.thanhcong.testsocket;
+package com.lamvuon;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.thanhcong.testsocket", appContext.getPackageName());
+        assertEquals("com.testsocket", appContext.getPackageName());
     }
 }

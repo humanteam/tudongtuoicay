@@ -1,4 +1,4 @@
-package com.example.thanhcong.testsocket.models;
+package com.lamvuon.models;
 
 public class SocketEmit {
    private int socketEmit;

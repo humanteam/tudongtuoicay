@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.thanhcong.testsocket">
+    package="com.lamvuon">
 <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/CustomThem">
-        <activity android:name=".activity.HomeActivity.ViewHomeActivity">
+        <activity android:name="com.lamvuon.activity.HomeActivity.ViewHomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".socket.ServiceCustom"
+        <service android:name="com.lamvuon.socket.ServiceCustom"
             android:enabled="true"/>
-        <activity android:name=".activity.HandSprinklers.ViewHandSprinklers"/>
+        <activity android:name="com.lamvuon.activity.HandSprinklers.ViewHandSprinklers"/>
     </application>
 
 </manifest>

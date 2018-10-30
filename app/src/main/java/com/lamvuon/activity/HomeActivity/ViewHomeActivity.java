@@ -1,13 +1,12 @@
-package com.example.thanhcong.testsocket.activity.HomeActivity;
+package com.lamvuon.activity.HomeActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.thanhcong.testsocket.R;
-import com.example.thanhcong.testsocket.activity.CommonActivity;
-
+import com.lamvuon.R;
+import com.lamvuon.activity.CommonActivity;
 public class ViewHomeActivity extends CommonActivity implements View.OnClickListener {
 
     private final String TAG = ViewHomeActivity.class.getSimpleName();

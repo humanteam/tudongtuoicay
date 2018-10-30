@@ -1,4 +1,4 @@
-package com.example.thanhcong.testsocket.common;
+package com.lamvuon.common;
 
 import android.content.Context;
 import android.util.Log;

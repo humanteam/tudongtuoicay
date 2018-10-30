@@ -1,6 +1,4 @@
-package com.example.thanhcong.testsocket.activity;
-
-import android.annotation.SuppressLint;
+package com.lamvuon.activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -8,8 +6,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.thanhcong.testsocket.R;
-import com.example.thanhcong.testsocket.activity.HomeActivity.ViewHomeActivity;
+import com.lamvuon.R;
+import com.lamvuon.activity.HomeActivity.ViewHomeActivity;
 
 
 public class CommonActivity extends AppCompatActivity {

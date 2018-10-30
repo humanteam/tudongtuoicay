@@ -1,4 +1,4 @@
-package com.example.thanhcong.testsocket.activity.HandSprinklers;
+package com.lamvuon.activity.HandSprinklers;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,9 +7,9 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 
-import com.example.thanhcong.testsocket.R;
-import com.example.thanhcong.testsocket.activity.CommonActivity;
-import com.example.thanhcong.testsocket.adapter.HandSprinklersAdapter;
+import com.lamvuon.R;
+import com.lamvuon.activity.CommonActivity;
+import com.lamvuon.adapter.HandSprinklersAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

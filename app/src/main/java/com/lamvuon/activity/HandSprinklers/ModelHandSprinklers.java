@@ -1,4 +1,4 @@
-package com.example.thanhcong.testsocket.activity.HandSprinklers;
+package com.lamvuon.activity.HandSprinklers;
 
 import android.content.Context;
 

@@ -1,12 +1,13 @@
-package com.example.thanhcong.testsocket.socket;
+package com.lamvuon.socket;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
-import com.example.thanhcong.testsocket.common.Utils;
-import com.example.thanhcong.testsocket.models.SocketEmit;
+import com.lamvuon.common.Utils;
+import com.lamvuon.models.SocketEmit;
+
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
