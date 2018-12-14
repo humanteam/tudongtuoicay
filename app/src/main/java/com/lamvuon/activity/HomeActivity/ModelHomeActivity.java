@@ -6,6 +6,10 @@ import android.widget.TextView;
 
 import com.lamvuon.R;
 import com.lamvuon.activity.HandSprinklers.ViewHandSprinklers;
+import com.lamvuon.common.Constans;
+import com.lamvuon.models.SocketEmit;
+
+import org.greenrobot.eventbus.EventBus;
 
 
 public class ModelHomeActivity {
@@ -25,6 +29,9 @@ public class ModelHomeActivity {
     }
 
     public void turnOn(TextView tv_level,TextView tv_information) {
+        SocketEmit socketEmit = new SocketEmit();
+        socketEmit.setSocketEmit(Constans.SocketEmit.TURN_ON_AUTO);
+        EventBus.getDefault().post(socketEmit);
         tv_information.setText(context.getResources().getString(R.string.information_auto_on));
     }
 

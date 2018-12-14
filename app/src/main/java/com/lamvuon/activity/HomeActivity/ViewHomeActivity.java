@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import com.lamvuon.R;
 import com.lamvuon.activity.CommonActivity;
+import com.lamvuon.common.Utils;
+
 public class ViewHomeActivity extends CommonActivity implements View.OnClickListener {
 
     private final String TAG = ViewHomeActivity.class.getSimpleName();
@@ -27,6 +29,7 @@ public class ViewHomeActivity extends CommonActivity implements View.OnClickList
     @Override
     protected void onStart() {
         super.onStart();
+        Utils.registerEventBuss(this);
     }
 
     @Override
@@ -42,6 +45,7 @@ public class ViewHomeActivity extends CommonActivity implements View.OnClickList
     @Override
     protected void onStop() {
         super.onStop();
+        Utils.unRegisterEventBuss(this);
     }
 
     private void initEvent() {

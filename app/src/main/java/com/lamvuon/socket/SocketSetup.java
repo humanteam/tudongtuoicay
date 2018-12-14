@@ -63,10 +63,10 @@ public class SocketSetup {
     }
 
     private void turnOffAuto() {
-
+     socket.emit("turnOff","Turn Off Dataaaaa");
     }
 
     private void turnOnAuto() {
-
+        socket.emit("turnOn","Turn On Dataaaaa");
     }
 }
